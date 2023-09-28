@@ -7,18 +7,37 @@ body {
 }
 
 .container {
-    /* display: flex; */
+    display: flex;
     color: #fff;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    /* min-height: 540px;
+    max-height: 600px;
+    margin-left: 165px;
+    margin-top: 150px; */
+}
+
+.main {
+    max-width: 450px;
 }
 
 .main span {
     font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 4.75px;
 }
 
 .main h1 {
     font-family: 'Bellefair', serif;
+    font-size: 150px;
+    font-weight: 200;
+    margin: 45px 0 70px 0;
 }
 
 .main p {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
 }
