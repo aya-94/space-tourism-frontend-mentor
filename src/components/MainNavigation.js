@@ -1,28 +1,53 @@
 import { NavLink } from 'react-router-dom';
 
+import classes from './MainNavigation.module.css';
+
 const MainNavigation = () => {
     return ( 
-        <header>
+        <header className={classes.header}>
+            <div className={classes.logo}></div>
             <nav>
-                <ul>
+                
+                <ul className={classes.list}>
+                <div className={classes.line}></div>
                     <li>
-                        <NavLink to="/" end>
-                            00 HOME
+                        <NavLink 
+                            to="/" 
+                            className={({ isActive }) =>
+                                isActive ? classes.active : undefined
+                            }
+                            end>
+                            <span>00</span> HOME
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/destination">
-                            01 DESTINATION
+                        <NavLink 
+                            to="/destination"
+                            className={({ isActive }) =>
+                                isActive ? classes.active : undefined
+                            }
+                            >
+                            <span>01</span> DESTINATION
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/crew">
-                            02 CREW
+                        <NavLink 
+                            to="/crew"
+                            className={({ isActive }) =>
+                                isActive ? classes.active : undefined
+                            }
+                            >
+                            <span>02</span> CREW
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/technology">
-                            03 TECHNOLOGY
+                        <NavLink 
+                            to="/technology"
+                            className={({ isActive }) =>
+                                isActive ? classes.active : undefined
+                            }
+                            >
+                            <span>03</span> TECHNOLOGY
                         </NavLink>
                     </li>
                 </ul>
