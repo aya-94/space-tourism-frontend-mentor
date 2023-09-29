@@ -13,10 +13,13 @@ body {
     justify-content: space-between;
     align-content: flex-start;
     flex-wrap: wrap;
+    height: calc(100% - 136px);
+    overflow-y: auto;
     /* min-height: 540px;
     max-height: 600px;
     margin-left: 165px;
     margin-top: 150px; */
+
 }
 
 .main {
@@ -40,4 +43,32 @@ body {
     font-family: 'Barlow', sans-serif;
     font-size: 18px;
     line-height: 32px;
+}
+
+.explore span {
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+    letter-spacing: 2px;
+    width: 274px;
+    height: 274px;
+    background-color: #fff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore {
+    width: 450px;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore a {
+    text-decoration: none;
+    color: #0B0D17;
 }

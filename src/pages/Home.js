@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 import classes from './Home.module.css';
 
 const HomePage = () => {
@@ -15,7 +17,7 @@ const HomePage = () => {
                     </p>
                 </div>
                 <div className={classes.explore}>
-                    <span>Explore</span>
+                    <span><NavLink to="/destination">EXPLORE</NavLink></span>
                 </div>
             </div>
 
