@@ -1,19 +1,16 @@
-import { Outlet } from 'react-router-dom';
+import { Outlet, useLocation } from 'react-router-dom';
 
 import MainNavigation from '../components/MainNavigation';
+import './root-styles.css';
 
 const RootLayout = () => {
-    const rootStyles = {
-        flexGrow: 3
-    }
 
-    const mainStyles = {
-        height: 'calc(100% - 136px)'
-    }
+    const path = useLocation().pathname;
+    const location = path.split("/")[1];
     return (
-        <div style={rootStyles}>
+        <div className={`header ${location ? location : 'home'}`}>
             <MainNavigation />
-            <main style={mainStyles}>
+            <main className="main-styles">
                 <Outlet />
             </main>
         </div>
