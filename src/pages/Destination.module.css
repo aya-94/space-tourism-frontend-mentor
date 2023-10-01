@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    
+}
+
+
+
+.image {
+    background: url('../assets/destination/image-mars.png');
+    width: 100px;
+    height: 100px;
+}
