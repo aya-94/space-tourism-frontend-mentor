@@ -33,7 +33,7 @@ const DestinationPage = () => {
 
     return ( 
         <div className={classes.destinationContainer}>
-            <h3><span>01</span>PICK YOUR DESTINATION</h3>
+            <h1><span>01</span>PICK YOUR DESTINATION</h1>
             <div className={classes.container}>
                 <div className={planetImg}></div>
                 <div className={classes.content}>
@@ -59,7 +59,7 @@ const DestinationPage = () => {
                             </ul>
                         </nav>
                     </div>
-                    <h1>{planetTitle}</h1>
+                    <h3>{planetTitle}</h3>
                     <p>{planetParagraph}</p>
                     <div className={classes.line}></div>
                     <div className={classes.info}>

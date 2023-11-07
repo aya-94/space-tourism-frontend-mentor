@@ -30,22 +30,9 @@ const router = createBrowserRouter([
 ])
 
 function App() {
-  // const location = useLocation();
-
-  // const backgrounds = {
-  //   '/': homeBackground,
-  //   '/destination': destinationBackground,
-  //   '/crew': crewBackground,
-  //   '/technology': technologyBackground
-  // }
-
-  // const backgroundImage = backgrounds[location.pathname] || homeBackground;
 
   return (
-    // <RouterProvider router={router} >
-    //     <RootLayout backgroundImage={backgroundImage} />
-    // </RouterProvider>
-        <RouterProvider router={router} />
+    <RouterProvider router={router} />
   )
 }
 

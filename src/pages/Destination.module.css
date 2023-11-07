@@ -1,19 +1,19 @@
 .destinationContainer {
     display: flex;
     flex-direction: column;
-    padding: 75px 160px 110px 165px;
+    padding: 8vh 11vw 10vh 12vw;
 }
 
-.destinationContainer h3 {
+.destinationContainer h1 {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 28px;
+    font-size: 1.7em;
     letter-spacing: 4.72px;
     color: #fff;
     font-weight: 200;
     margin: 0;
 }
 
-.destinationContainer h3 span {
+.destinationContainer h1 span {
     padding-right: 28px;
     opacity: 25%;
     font-weight: 600;
@@ -25,15 +25,16 @@
 }
 
 .moon {
-    background: url('../assets/destination/image-moon.png');
+    background: url('../assets/destination/image-moon.png') no-repeat;
+    background-size: 50vh;
     width: 445px;
     height: 445px;
-    margin-left: 65px;
-    margin-top: 100px;
+    margin-left: 5vw;
+    margin-top: 10vh;
 }
 
 .mars {
-    background: url('../assets/destination/image-mars.png');
+    background: url('../assets/destination/image-mars.png') no-repeat;
     width: 445px;
     height: 445px;
     margin-left: 65px;
@@ -41,7 +42,7 @@
 }
 
 .europa {
-    background: url('../assets/destination/image-europa.png');
+    background: url('../assets/destination/image-europa.png') no-repeat;
     width: 445px;
     height: 445px;
     margin-left: 65px;
@@ -49,7 +50,7 @@
 }
 
 .titan {
-    background: url('../assets/destination/image-titan.png');
+    background: url('../assets/destination/image-titan.png') no-repeat;
     width: 445px;
     height: 445px;
     margin-left: 65px;
@@ -59,7 +60,7 @@
 .destinationContainer .content {
     width: 445px;
     height: 472px;
-    margin-top: 65px;
+    margin-top: 7vh;
 }
 
 .planets ul {
@@ -85,7 +86,7 @@
     padding-bottom: 15px;
 }
 
-.content h1 {
+.content h3 {
     font-family: 'Bellefair', serif;
     font-size: 100px;
     text-transform: uppercase;

@@ -1,17 +1,50 @@
 .crewContainer {
-    display: flex;
-    padding: 60px 135px 0 165px;
+    padding: 60px 0 0 165px;
 }
 
-.crewContainer .container {
+.commanderContainer {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 135px;
+}
+
+.specialistContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 165px;
+}
+
+.pilotContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 143px;
+}
+
+.engineerContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 85px;
 }
 
 .crewContainer .content {
     display: flex;
     flex-direction: column;
+}
+
+.commanderContainer .content {
     max-width: 500px;
+}
+
+.specialistContainer .content {
+    max-width: 620px;
+}
+
+.pilotContainer .content {
+    max-width: 440px;
+}
+
+.engineerContainer .content {
+    max-width: 540px;
 }
 
 .crewContainer h3 {
@@ -29,12 +62,39 @@
     font-weight: 600;
 }
 
-.crewImg {
-    background: url('../assets/crew/image-douglas-hurley.png');
-    width: 570px;
+.commanderContainer .crewImg {
+    background-image: url('../assets/crew/image-douglas-hurley.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 510px;
     height: 712px;
-    margin-right: 145px;
-    /* margin-top: 100px; */
+}
+
+.specialistContainer .crewImg {
+    background-image: url('../assets/crew/image-mark-shuttleworth.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 450px;
+    height: 655px;
+    align-self: flex-end;
+}
+
+.pilotContainer .crewImg {
+    background-image: url('../assets/crew/image-victor-glover.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 555px;
+    height: 680px;
+    align-self: flex-end;
+}
+
+.engineerContainer .crewImg {
+    background-image: url('../assets/crew/image-anousheh-ansari.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 616px;
+    height: 607px;
+    align-self: flex-end;
 }
 
 .crewContainer h2 {
@@ -45,6 +105,8 @@
     opacity: 50%;
     font-weight: 200;
     text-transform: uppercase;
+    margin-top: 150px;
+    margin-bottom: 15px;
 }
 
 .crewContainer h1 {
@@ -61,6 +123,31 @@
     font-size: 18px;
     line-height: 32px;
     color: #D0D6F9;
+    margin: 27px 0 0 0;
+    max-width: 450px;
+}
+
+.slider {
+    display: flex;
+    justify-content: space-between;
+    width: 132px;
+    
+}
+
+.commanderContainer .slider {
+    margin-top: 120px;
+}
+
+.specialistContainer .slider {
+    margin-top: 120px;
+}
+
+.pilotContainer .slider {
+    margin-top: 88px;
+}
+
+.engineerContainer .slider {
+    margin-top: 120px;
 }
 
 .member1,
@@ -70,6 +157,13 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    color: #fff;
+    background-color: #fff;
     opacity: 17.44%;
+}
+
+.member1:hover,
+.member2:hover,
+.member3:hover,
+.member4:hover {
+    opacity: 50%;
 }
