@@ -37,4 +37,5 @@
 
 .main-styles {
     height: calc(100% - 136px);
+    display: flex;
 }
