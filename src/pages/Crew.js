@@ -9,8 +9,10 @@ const CrewPage = () => {
     const [crewName, setCrewName] = useState(crew[0].name);
     const [crewRole, setCrewRole] = useState(crew[0].role);
     const [crewBio, setCrewBio] = useState(crew[0].bio);
+    const [active, setActive] = useState(0);
 
     const HandleActive = (num) => {
+        setActive(num);
         setCrewName(crew[num].name);
         setCrewRole(crew[num].role);
         setCrewBio(crew[num].bio);
@@ -30,27 +32,27 @@ const CrewPage = () => {
         <div className={classes.crewContainer}>
             <div className={crewContainer}>
             <div className={classes.content}>
-            <h3><span>02</span>MEET YOUR CREW</h3>
+            <h1><span>02</span>MEET YOUR CREW</h1>
                 <h2>{crewRole}</h2>
-                <h1>{crewName}</h1>
+                <h3>{crewName}</h3>
                 <p>{crewBio}</p>
                 <div className={classes.slider}>
-                    <div 
-                        className={classes.member1} 
+                    <span 
                         onClick={() => HandleActive(0)}
-                        ></div>
-                    <div 
-                        className={classes.member2} 
+                        className={active === 0 ? classes.active : undefined}
+                        ></span>
+                    <span 
                         onClick={() => HandleActive(1)}
-                        ></div>
-                    <div 
-                        className={classes.member3} 
+                        className={active === 1 ? classes.active : undefined}
+                        ></span>
+                    <span 
                         onClick={() => HandleActive(2)}
-                        ></div>
-                    <div 
-                        className={classes.member4} 
+                        className={active === 2 ? classes.active : undefined}
+                        ></span>
+                    <span 
                         onClick={() => HandleActive(3)}
-                        ></div>
+                        className={active === 3 ? classes.active : undefined}
+                        ></span>
                 </div>
             </div>
                 <div className={classes.crewImg}></div>
