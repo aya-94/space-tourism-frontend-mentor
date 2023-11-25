@@ -1,5 +1,5 @@
 .crewContainer {
-    padding: 0 0 0 18.3vh;
+    padding: 0 0 0 11.5vw;
     display: flex;
     align-items: flex-end;
     width: 100%;
@@ -142,27 +142,26 @@
     display: flex;
     justify-content: space-between;
     width: 132px;
-    
 }
 
 .commanderContainer .slider {
     margin-top: 13.5vh;
-    margin-bottom: 9.6vh;
+    margin-bottom: 10.5vh;
 }
 
 .specialistContainer .slider {
     margin-top: 13.5vh;
-    margin-bottom: 9.6vh;
+    margin-bottom: 10.5vh;
 }
 
 .pilotContainer .slider {
     margin-top: 10vh;
-    margin-bottom: 9.6vh;
+    margin-bottom: 10.5vh;
 }
 
 .engineerContainer .slider {
     margin-top: 13.5vh;
-    margin-bottom: 9.6vh;
+    margin-bottom: 10.5vh;
 }
 
 .slider span {

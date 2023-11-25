@@ -1,0 +1,76 @@
+.technologyContainer {
+    padding: 0 0 0 11.5vw;
+    display: flex;
+    /* align-items: flex-end; */
+    width: 100%;
+}
+
+.launchContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-right: 135px;
+    width: 100%;
+}
+
+.technologyContainer .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.launchContainer .content {
+    max-width: 500px;
+}
+
+.technologyContainer h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 3.1vh;
+    letter-spacing: 4.72px;
+    color: #fff;
+    font-weight: 200;
+    margin: 0;
+}
+
+.technologyContainer h1 span {
+    padding-right: 28px;
+    opacity: 25%;
+    font-weight: 600;
+}
+
+.launchContainer .technologyImg {
+    background-image: url('../assets/technology/image-launch-vehicle-landscape.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 58vh;
+    height: 78vh;
+}
+
+.technologyContainer h2 {
+    font-family: 'Bellefair', serif;
+    font-size: 3.55vh;
+    margin: 0;
+    color: #fff;
+    opacity: 50%;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 17vh;
+    margin-bottom: 1.5vh;
+}
+
+.technologyContainer h3 {
+    font-family: 'Bellefair', serif;
+    font-size: 6.2vh;
+    font-weight: 200;
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.technologyContainer p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 2vh;
+    line-height: 3.55vh;
+    color: #D0D6F9;
+    margin: 3vh 0 0 0;
+    max-width: 50vh;
+}

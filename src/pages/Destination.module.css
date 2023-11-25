@@ -1,13 +1,13 @@
 .destinationContainer {
     display: flex;
     flex-direction: column;
-    padding: 8vh 11vw 10vh 12vw;
+    padding: 8.5vh 11.3vw 12.5vh 11.5vw;
     width: 100%;
 }
 
 .destinationContainer h1 {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 1.7em;
+    font-size: 3.1vh;
     letter-spacing: 4.72px;
     color: #fff;
     font-weight: 200;
