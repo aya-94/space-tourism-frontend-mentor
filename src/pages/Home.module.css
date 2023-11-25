@@ -1,20 +1,11 @@
-/* body {
-    background: url('../assets/home/background-home-desktop.jpg');
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-
 .container {
     display: flex;
     color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 0 5vw 5vh 11.5vw;
     align-items: flex-end;
     justify-content: space-between;
-    align-content: flex-end;
-    flex-wrap: wrap;
-    height: 100%;
-    padding: 0 75px 45px 165px;
 }
 
 .main {
@@ -23,14 +14,14 @@
 
 .main span {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 28px;
+    font-size: 3.1vh;
     letter-spacing: 4.75px;
     color: #D0D6F9;
 }
 
 .main h1 {
     font-family: 'Bellefair', serif;
-    font-size: 150px;
+    font-size: 16.5vh;
     font-weight: 200;
     padding: 25px 0 35px 0;
     margin: 0;
@@ -38,7 +29,7 @@
 
 .main p {
     font-family: 'Barlow', sans-serif;
-    font-size: 18px;
+    font-size: 2vh;
     line-height: 32px;
     color: #D0D6F9;
     margin: 0;
@@ -47,25 +38,30 @@
 
 .explore span {
     font-family: 'Bellefair', serif;
-    font-size: 32px;
+    font-size: 3.6vh;
     letter-spacing: 2px;
-    width: 274px;
-    height: 274px;
+    width: 30.5vh;
+    height: 30.5vh;
     background-color: #fff;
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .explore {
-    width: 450px;
-    height: 450px;
-    background-color: rgba(255, 255, 255, 0.1);
+    width: 50vh;
+    height: 50vh;
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.explore:hover {
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .explore a {

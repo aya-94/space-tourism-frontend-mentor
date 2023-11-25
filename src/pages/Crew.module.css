@@ -2,6 +2,7 @@
     padding: 60px 0 0 165px;
     display: flex;
     align-items: flex-end;
+    width: 100%;
 }
 
 .commanderContainer {
@@ -9,6 +10,7 @@
     justify-content: space-between;
     align-items: end;
     padding-right: 135px;
+    width: 100%;
 }
 
 .specialistContainer {
@@ -16,6 +18,7 @@
     justify-content: space-between;
     align-items: end;
     padding-right: 165px;
+    width: 100%;
 }
 
 .pilotContainer {
@@ -23,6 +26,7 @@
     justify-content: space-between;
     align-items: end;
     padding-right: 143px;
+    width: 100%;
 }
 
 .engineerContainer {
@@ -30,6 +34,7 @@
     justify-content: space-between;
     align-items: end;
     padding-right: 85px;
+    width: 100%;
 }
 
 .crewContainer .content {
@@ -73,7 +78,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     width: 510px;
-    height: 712px;
+    height: 700px;
 }
 
 .specialistContainer .crewImg {
@@ -81,7 +86,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     width: 450px;
-    height: 655px;
+    height: 645px;
     align-self: flex-end;
 }
 
@@ -90,7 +95,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     width: 555px;
-    height: 680px;
+    height: 650px;
     align-self: flex-end;
 }
 
