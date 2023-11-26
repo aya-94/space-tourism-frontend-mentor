@@ -1,5 +1,5 @@
 .technologyContainer {
-    padding: 0 0 0 11.5vw;
+    padding: 8.5vh 0 0 11.5vw;
     width: 100%;
 }
 
@@ -28,7 +28,6 @@
     color: #fff;
     font-weight: 200;
     margin: 0;
-    margin-top: 8.5vh;
 }
 
 .technologyContainer h1 span {

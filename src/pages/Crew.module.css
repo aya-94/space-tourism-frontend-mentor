@@ -1,14 +1,28 @@
 .crewContainer {
-    padding: 0 0 0 11.5vw;
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    padding: 8.5vh 0 0 11.5vw;
     width: 100%;
+}
+
+.crewContainer h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 3.1vh;
+    letter-spacing: 4.72px;
+    color: #fff;
+    font-weight: 200;
+    margin: 0;
+}
+
+.crewContainer h1 span {
+    padding-right: 28px;
+    opacity: 25%;
+    font-weight: 600;
 }
 
 .commanderContainer {
     display: flex;
     justify-content: space-between;
-    align-items: end;
     padding-right: 135px;
     width: 100%;
 }
@@ -16,7 +30,6 @@
 .specialistContainer {
     display: flex;
     justify-content: space-between;
-    align-items: end;
     padding-right: 165px;
     width: 100%;
 }
@@ -24,7 +37,6 @@
 .pilotContainer {
     display: flex;
     justify-content: space-between;
-    align-items: end;
     padding-right: 143px;
     width: 100%;
 }
@@ -32,7 +44,6 @@
 .engineerContainer {
     display: flex;
     justify-content: space-between;
-    align-items: end;
     padding-right: 85px;
     width: 100%;
 }
@@ -58,27 +69,13 @@
     max-width: 540px;
 }
 
-.crewContainer h1 {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 3.1vh;
-    letter-spacing: 4.72px;
-    color: #fff;
-    font-weight: 200;
-    margin: 0;
-}
-
-.crewContainer h1 span {
-    padding-right: 28px;
-    opacity: 25%;
-    font-weight: 600;
-}
-
 .commanderContainer .crewImg {
     background-image: url('../assets/crew/image-douglas-hurley.png');
     background-repeat: no-repeat;
     background-size: contain;
     width: 58vh;
-    height: 78vh;
+    height: 72vh;
+    align-self: end;
 }
 
 .specialistContainer .crewImg {
@@ -87,7 +84,7 @@
     background-size: contain;
     width: 54vh;
     height: 71vh;
-    align-self: flex-end;
+    align-self: end;
 }
 
 .pilotContainer .crewImg {
@@ -95,8 +92,8 @@
     background-repeat: no-repeat;
     background-size: contain;
     width: 63vh;
-    height: 73vh;
-    align-self: flex-end;
+    height: 72vh;
+    align-self: end;
 }
 
 .engineerContainer .crewImg {
@@ -105,7 +102,7 @@
     background-size: contain;
     width: 68vh;
     height: 67vh;
-    align-self: flex-end;
+    align-self: end;
 }
 
 .crewContainer h2 {
@@ -116,7 +113,7 @@
     opacity: 50%;
     font-weight: 200;
     text-transform: uppercase;
-    margin-top: 17vh;
+    margin-top: 15vh;
     margin-bottom: 1.5vh;
 }
 
@@ -145,23 +142,23 @@
 }
 
 .commanderContainer .slider {
-    margin-top: 13.5vh;
-    margin-bottom: 10.5vh;
+    margin-top: 12.5vh;
+    margin-bottom: 9.5vh;
 }
 
 .specialistContainer .slider {
-    margin-top: 13.5vh;
-    margin-bottom: 10.5vh;
+    margin-top: 12.5vh;
+    margin-bottom: 9.5vh;
 }
 
 .pilotContainer .slider {
-    margin-top: 10vh;
-    margin-bottom: 10.5vh;
+    margin-top: 9vh;
+    margin-bottom: 9.5vh;
 }
 
 .engineerContainer .slider {
-    margin-top: 13.5vh;
-    margin-bottom: 10.5vh;
+    margin-top: 12.5vh;
+    margin-bottom: 9.5vh;
 }
 
 .slider span {
@@ -170,6 +167,7 @@
     border-radius: 50%;
     background-color: #fff;
     opacity: 17.44%;
+    cursor: pointer;
 }
 
 .slider span:hover {
