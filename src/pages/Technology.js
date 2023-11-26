@@ -27,28 +27,28 @@ const TechnologyPage = () => {
 
     return ( 
         <div className={classes.technologyContainer}>
+            <h1><span>03</span>SPACE LAUNCH 101</h1>
             <div className={technologyContainer}>
-            <div className={classes.content}>
-                <div className={classes.text}>
-                    <h1><span>03</span>SPACE LAUNCH 101</h1>
-                    <h2>THE TERMINOLOGY…</h2>
-                    <h3>{technologyName}</h3>
-                    <p>{technologyDescription}</p>
-                </div>
-                <div className={classes.slider}>
-                    <span 
-                        onClick={() => HandleActive(0)}
-                        className={active === 0 ? classes.active : undefined}
-                        ></span>
-                    <span 
-                        onClick={() => HandleActive(1)}
-                        className={active === 1 ? classes.active : undefined}
-                        ></span>
-                    <span 
-                        onClick={() => HandleActive(2)}
-                        className={active === 2 ? classes.active : undefined}
-                        ></span>
-                </div>
+                <div className={classes.content}>
+                    <div className={classes.text}>
+                        <h2>THE TERMINOLOGY…</h2>
+                        <h3>{technologyName}</h3>
+                        <p>{technologyDescription}</p>
+                    </div>
+                    <div className={classes.slider}>
+                        <span 
+                            onClick={() => HandleActive(0)}
+                            className={active === 0 ? classes.active : undefined}
+                            >1</span>
+                        <span 
+                            onClick={() => HandleActive(1)}
+                            className={active === 1 ? classes.active : undefined}
+                            >2</span>
+                        <span 
+                            onClick={() => HandleActive(2)}
+                            className={active === 2 ? classes.active : undefined}
+                            >3</span>
+                    </div>
             </div>
                 <div className={classes.technologyImg}></div>
             </div>

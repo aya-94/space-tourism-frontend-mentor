@@ -1,6 +1,6 @@
 .technologyContainer {
     padding: 0 0 0 11.5vw;
-    display: flex;
+    /* display: flex; */
     /* align-items: flex-end; */
     width: 100%;
 }
@@ -8,18 +8,17 @@
 .launchContainer {
     display: flex;
     justify-content: space-between;
-    align-items: end;
-    padding-right: 135px;
     width: 100%;
 }
 
 .technologyContainer .content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
+    margin-top: 137px;
 }
 
 .launchContainer .content {
-    max-width: 500px;
+    max-width: 630px;
 }
 
 .technologyContainer h1 {
@@ -29,6 +28,7 @@
     color: #fff;
     font-weight: 200;
     margin: 0;
+    margin-top: 76px;
 }
 
 .technologyContainer h1 span {
@@ -38,28 +38,28 @@
 }
 
 .launchContainer .technologyImg {
-    background-image: url('../assets/technology/image-launch-vehicle-landscape.jpg');
+    background-image: url('../assets/technology/image-launch-vehicle-portrait.jpg');
     background-repeat: no-repeat;
     background-size: contain;
-    width: 58vh;
-    height: 78vh;
+    width: 515px;
+    height: 527px;
+    margin-top: 26px;
 }
 
 .technologyContainer h2 {
-    font-family: 'Bellefair', serif;
-    font-size: 3.55vh;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
     margin: 0;
-    color: #fff;
-    opacity: 50%;
+    color: #D0D6F9;
     font-weight: 200;
     text-transform: uppercase;
-    margin-top: 17vh;
-    margin-bottom: 1.5vh;
+    margin-bottom: 15px;
 }
 
 .technologyContainer h3 {
     font-family: 'Bellefair', serif;
-    font-size: 6.2vh;
+    font-size: 56px;
     font-weight: 200;
     margin: 0;
     color: #fff;
@@ -68,9 +68,35 @@
 
 .technologyContainer p {
     font-family: 'Barlow', sans-serif;
-    font-size: 2vh;
-    line-height: 3.55vh;
+    font-size: 18px;
+    line-height: 32px;
     color: #D0D6F9;
-    margin: 3vh 0 0 0;
-    max-width: 50vh;
+    max-width: 445px;
+    margin-top: 17px;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 305px;
+    padding-right: 75px;
+}
+
+.slider span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+}
+
+.slider span:hover {
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
 }
