@@ -1,7 +1,5 @@
 .technologyContainer {
     padding: 0 0 0 11.5vw;
-    /* display: flex; */
-    /* align-items: flex-end; */
     width: 100%;
 }
 
@@ -30,7 +28,7 @@
     color: #fff;
     font-weight: 200;
     margin: 0;
-    margin-top: 76px;
+    margin-top: 8.5vh;
 }
 
 .technologyContainer h1 span {
@@ -43,43 +41,43 @@
     background-image: url('../assets/technology/image-launch-vehicle-portrait.jpg');
     background-repeat: no-repeat;
     background-size: contain;
-    width: 515px;
-    height: 527px;
-    margin-top: 26px;
+    width: 57.25vh;
+    height: 60vh;
+    margin-top: 2.9vh;
 }
 
 .spaceportContainer .technologyImg {
     background-image: url('../assets/technology/image-spaceport-portrait.jpg');
     background-repeat: no-repeat;
     background-size: contain;
-    width: 515px;
-    height: 527px;
-    margin-top: 26px;
+    width: 57.25vh;
+    height: 60vh;
+    margin-top: 2.9vh;
 }
 
 .capsuleContainer .technologyImg {
     background-image: url('../assets/technology/image-space-capsule-portrait.jpg');
     background-repeat: no-repeat;
     background-size: contain;
-    width: 515px;
-    height: 527px;
-    margin-top: 26px;
+    width: 57.25vh;
+    height: 60vh;
+    margin-top: 2.9vh;
 }
 
 .technologyContainer h2 {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 16px;
+    font-size: 1.75vh;
     letter-spacing: 2.7px;
     margin: 0;
     color: #D0D6F9;
     font-weight: 200;
     text-transform: uppercase;
-    margin-bottom: 15px;
+    margin-bottom: 1.7vh;
 }
 
 .technologyContainer h3 {
     font-family: 'Bellefair', serif;
-    font-size: 56px;
+    font-size: 6.23vh;
     font-weight: 200;
     margin: 0;
     color: #fff;
@@ -88,19 +86,19 @@
 
 .technologyContainer p {
     font-family: 'Barlow', sans-serif;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 2vh;
+    line-height: 3.55vh;
     color: #D0D6F9;
     max-width: 445px;
-    margin-top: 17px;
+    margin-top: 1.9vh;
 }
 
 .slider {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 305px;
-    padding-right: 75px;
+    height: 34vh;
+    padding-right: 8.4vh;
 }
 
 .slider span {
@@ -109,11 +107,11 @@
     align-items: center;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 8.9vh;
+    height: 8.9vh;
     color: #fff;
     font-family: 'Bellefair', serif;
-    font-size: 32px;
+    font-size: 3.6vh;
 }
 
 .slider span:hover {
