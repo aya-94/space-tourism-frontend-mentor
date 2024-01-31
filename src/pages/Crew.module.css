@@ -1,7 +1,7 @@
 .crewContainer {
     display: flex;
     flex-direction: column;
-    padding: 8.5vh 0 0 11.5vw;
+    padding: 0 0 0 11.5vw;
     width: 100%;
 }
 
@@ -74,7 +74,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     width: 58vh;
-    height: 72vh;
+    height: 71vh;
     align-self: end;
 }
 
@@ -92,7 +92,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     width: 63vh;
-    height: 72vh;
+    height: 71vh;
     align-self: end;
 }
 
@@ -113,7 +113,7 @@
     opacity: 50%;
     font-weight: 200;
     text-transform: uppercase;
-    margin-top: 15vh;
+    margin-top: 14vh;
     margin-bottom: 1.5vh;
 }
 
@@ -176,4 +176,14 @@
 
 .slider span.active {
     opacity: 100%;
+}
+
+@media screen and (min-width: 1450px) {
+
+    .commanderContainer,
+    .specialistContainer,
+    .pilotContainer,
+    .engineerContainer {
+        justify-content: space-around;
+    }
 }
