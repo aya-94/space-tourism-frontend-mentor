@@ -61,6 +61,12 @@
         background: url('../assets/technology/background-technology-tablet.jpg') no-repeat center center fixed;
         -webkit-background-size: cover;
     }
+
+    .main-styles {
+        height: calc(100% - 90px);
+        display: flex;
+        align-items: flex-end;
+    }
 }
 
 @media screen and (max-width: 500px) {

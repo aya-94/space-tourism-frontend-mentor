@@ -30,9 +30,11 @@ const CrewPage = () => {
 
     return ( 
         <div className={classes.crewContainer}>
-            <div className={crewContainer}>
-            <div className={classes.content}>
             <h1><span>02</span>MEET YOUR CREW</h1>
+            <div className={crewContainer}>
+            
+            <div className={classes.content}>
+            
                 <h2>{crewRole}</h2>
                 <h3>{crewName}</h3>
                 <p>{crewBio}</p>
