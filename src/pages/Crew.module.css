@@ -196,16 +196,23 @@
         align-content: center;
     }
 
-    .commanderContainer .crewImg,
+    .commanderContainer .crewImg {
+        width: 360px;
+        height: 500px;
+        align-self: center;
+    }
+
     .specialistContainer .crewImg,
     .pilotContainer .crewImg {
         width: 450px;
         height: 500px;
+        align-self: center;
     }
 
     .engineerContainer .crewImg {
         width: 480px;
         height: 500px;
+        align-self: center;
     }
 
     .crewContainer h1 {
@@ -217,7 +224,7 @@
     .crewContainer h2 {
         font-size: 24px;
         text-align: center;
-        margin-top: 50px;
+        margin-top: 80px;
     }
 
     .crewContainer h3 {
@@ -230,6 +237,7 @@
         text-align: center;
         line-height: 3vh;
         margin: 25px 0 0 0;
+        max-width: 590px;
     }
     
     .slider {

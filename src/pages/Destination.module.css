@@ -147,7 +147,7 @@
 @media screen and (max-width: 900px) {
 
     .destinationContainer {
-        padding: 0 40px 60px 40px;
+        padding: 0 40px 78px 40px;
     }
 
     .destinationContainer h1 {
@@ -165,8 +165,8 @@
     .europa,
     .titan {
         background-size: 27vh;
-        width: 300px;
-        height: 300px;
+        width: 310px;
+        height: 310px;
         align-self: center;
         margin-left: 0;
         margin-bottom: 20px;
